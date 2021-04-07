@@ -13,3 +13,6 @@ app.delete
 app.all
 app.use
 app.listen
+
+req object
+console.log(req.params);

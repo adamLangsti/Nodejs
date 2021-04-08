@@ -15,4 +15,8 @@ app.use
 app.listen
 
 req object
+req.method (GET/POST/PUT)
+req.url
 console.log(req.params);
+
+Middleware is a function that executes during the request to the server
